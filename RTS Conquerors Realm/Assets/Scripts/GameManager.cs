@@ -66,11 +66,22 @@ public class GameManager : MonoBehaviour
     public void OpenOptions()
     {
         optionsMenu.SetActive(true);
+        pauseMenu.SetActive(false);
     }
 
     public void CloseOptions()
     {
         optionsMenu.SetActive(false);
+        pauseMenu.SetActive(true);
+    }
+
+    public void Quit()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
     }
 
     void UpdateMoveSpeed()
