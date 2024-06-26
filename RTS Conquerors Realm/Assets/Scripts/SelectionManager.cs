@@ -1,88 +1,156 @@
 using UnityEngine;
-using UnityEngine.UI;
 using System.Collections.Generic;
 
 public class SelectionManager : MonoBehaviour
 {
-    public RectTransform selectionBox;
-    public Color selectedColor = Color.red;
-    public Color normalColor = Color.white;
-    private Vector2 startPos;
-    private Vector2 endPos;
-    private List<GameObject> selectedUnits = new List<GameObject>();
-    private Camera mainCamera;
+    public Color selectedColor = Color.red; // Color to indicate selected units
+    public Color normalColor = Color.white; // Color to indicate normal units
+    private Vector2 startPos; // Start position of the selection box
+    private List<GameObject> selectedUnits = new List<GameObject>(); // List of currently selected units
+    private Camera mainCamera; // Reference to the main camera
+
+    private bool isSelecting = false; // Flag to check if selection is ongoing
+    private float minBoxSize = 10f; // Minimum size of the selection box to be shown
+
+    private Dictionary<int, List<GameObject>> unitGroups = new Dictionary<int, List<GameObject>>(); // Dictionary to store unit groups
 
     void Start()
     {
-        mainCamera = Camera.main;
+        mainCamera = Camera.main; // Get the main camera
     }
 
     void Update()
     {
-        HandleInput();
+        HandleInput(); // Handle mouse input each frame
+        HandleGroupSelection(); // Handle group selection input each frame
+    }
+
+    void OnGUI()
+    {
+        if (isSelecting)
+        {
+            // Create a rect from both start and current mouse positions
+            var rect = GetScreenRect(startPos, Input.mousePosition);
+            if (rect.width > minBoxSize && rect.height > minBoxSize)
+            {
+                DrawScreenRect(rect, new Color(0.8f, 0.8f, 0.95f, 0.25f));
+                DrawScreenRectBorder(rect, 2, new Color(0.8f, 0.8f, 0.95f));
+            }
+        }
     }
 
     void HandleInput()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            startPos = Input.mousePosition;
-            selectionBox.gameObject.SetActive(false); // Hide the selection box initially
-        }
+            startPos = Input.mousePosition; // Record the start position
+            isSelecting = true; // Enable selection
 
-        if (Input.GetMouseButton(0))
-        {
-            endPos = Input.mousePosition;
-            if (Vector2.Distance(startPos, endPos) > 10) // Adjust the threshold as needed
+            if (!(Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl)))
             {
-                selectionBox.gameObject.SetActive(true);
-                UpdateSelectionBox();
+                DeselectUnits(); // Clear previous selection if not holding Control
             }
         }
 
         if (Input.GetMouseButtonUp(0))
         {
-            if (selectionBox.gameObject.activeInHierarchy)
+            if (isSelecting)
             {
-                SelectUnits();
-                selectionBox.gameObject.SetActive(false);
-            }
-            else
-            {
-                SelectOrDeselectSingleUnit(Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl));
+                var rect = GetScreenRect(startPos, Input.mousePosition);
+                if (rect.width > minBoxSize && rect.height > minBoxSize)
+                {
+                    SelectUnits(); // Select units within the selection box
+                }
+                else
+                {
+                    SelectSingleUnit(); // Select a single unit if not dragging
+                }
+                isSelecting = false; // Disable selection
             }
         }
 
         if (Input.GetMouseButtonDown(1))
         {
-            MoveSelectedUnits();
+            HandleRightClick(); // Handle right-click input
         }
     }
 
-    void UpdateSelectionBox()
+    void HandleRightClick()
     {
-        Vector2 boxStart = startPos;
-        Vector2 boxEnd = endPos;
+        Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit))
+        {
+            GameObject target = hit.collider.gameObject;
+            if (target.CompareTag("Wood") || target.CompareTag("Crystal"))
+            {
+                foreach (GameObject unit in selectedUnits)
+                {
+                    if (unit.GetComponent<Worker>() != null)
+                    {
+                        unit.GetComponent<Worker>().AssignResource(target);
+                    }
+                }
+            }
+            else if (target.CompareTag("Base"))
+            {
+                foreach (GameObject unit in selectedUnits)
+                {
+                    if (unit.GetComponent<Worker>() != null)
+                    {
+                        unit.GetComponent<Worker>().DropOffEarly();
+                    }
+                }
+            }
+        }
+    }
 
-        Vector2 boxCenter = (boxStart + boxEnd) / 2;
+    void HandleGroupSelection()
+    {
+        for (int i = 0; i <= 9; i++)
+        {
+            if (Input.GetKey(KeyCode.LeftAlt) || Input.GetKey(KeyCode.RightAlt))
+            {
+                if (Input.GetKeyDown(KeyCode.Alpha0 + i))
+                {
+                    SetGroup(i);
+                }
+            }
+            else
+            {
+                if (Input.GetKeyDown(KeyCode.Alpha0 + i))
+                {
+                    SelectGroup(i);
+                }
+            }
+        }
+    }
 
-        // Convert screen point to local point for the canvas
-        RectTransformUtility.ScreenPointToLocalPointInRectangle(selectionBox.parent as RectTransform, boxCenter, null, out Vector2 localCenter);
-        selectionBox.localPosition = localCenter;
+    void SetGroup(int groupNumber)
+    {
+        unitGroups[groupNumber] = new List<GameObject>(selectedUnits);
+    }
 
-        Vector2 boxSize = new Vector2(Mathf.Abs(boxStart.x - boxEnd.x), Mathf.Abs(boxStart.y - boxEnd.y));
-        selectionBox.sizeDelta = boxSize;
+    void SelectGroup(int groupNumber)
+    {
+        if (unitGroups.ContainsKey(groupNumber))
+        {
+            DeselectUnits();
+            selectedUnits = new List<GameObject>(unitGroups[groupNumber]);
+
+            foreach (GameObject unit in selectedUnits)
+            {
+                if (unit != null)
+                {
+                    unit.GetComponent<Renderer>().material.color = selectedColor;
+                }
+            }
+        }
     }
 
     void SelectUnits()
     {
-        if (!(Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl)))
-        {
-            DeselectUnits();  // Clear previous selection if not holding Control
-        }
-
-        Rect selectionRect = new Rect(Mathf.Min(startPos.x, endPos.x), Mathf.Min(startPos.y, endPos.y),
-                                      Mathf.Abs(startPos.x - endPos.x), Mathf.Abs(startPos.y - endPos.y));
+        Rect selectionRect = GetScreenRect(startPos, Input.mousePosition);
 
         GameObject[] units = GameObject.FindGameObjectsWithTag("Unit");
         foreach (GameObject unit in units)
@@ -97,48 +165,33 @@ public class SelectionManager : MonoBehaviour
                 {
                     if (hit.collider.gameObject == unit)
                     {
-                        selectedUnits.Add(unit);
-                        unit.GetComponent<Renderer>().material.color = selectedColor;  // Change to selected color
+                        AddUnitToSelection(unit);
                     }
                 }
             }
         }
     }
 
-    void SelectOrDeselectSingleUnit(bool multiSelect)
+    void SelectSingleUnit()
     {
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit))
         {
-            if (hit.collider.CompareTag("Unit"))
+            GameObject unit = hit.collider.gameObject;
+            if (unit.CompareTag("Unit"))
             {
-                if (!multiSelect)
-                {
-                    DeselectUnits();  // Clear previous selection if not multi-selecting
-                }
-                GameObject selectedUnit = hit.collider.gameObject;
-                if (selectedUnits.Contains(selectedUnit))
-                {
-                    selectedUnits.Remove(selectedUnit);
-                    if (selectedUnit != null)
-                    {
-                        selectedUnit.GetComponent<Renderer>().material.color = normalColor;  // Change back to normal color
-                    }
-                }
-                else
-                {
-                    selectedUnits.Add(selectedUnit);
-                    selectedUnit.GetComponent<Renderer>().material.color = selectedColor;  // Change to selected color
-                }
+                AddUnitToSelection(unit);
             }
         }
-        else
+    }
+
+    void AddUnitToSelection(GameObject unit)
+    {
+        if (!selectedUnits.Contains(unit))
         {
-            if (!multiSelect)
-            {
-                DeselectUnits();  // Deselect all units if clicking on an empty space
-            }
+            selectedUnits.Add(unit);
+            unit.GetComponent<Renderer>().material.color = selectedColor; // Change to selected color
         }
     }
 
@@ -148,7 +201,7 @@ public class SelectionManager : MonoBehaviour
         {
             if (selectedUnits[i] != null)
             {
-                selectedUnits[i].GetComponent<Renderer>().material.color = normalColor;  // Change back to normal color
+                selectedUnits[i].GetComponent<Renderer>().material.color = normalColor; // Change back to normal color
             }
         }
         selectedUnits.Clear();
@@ -184,5 +237,39 @@ public class SelectionManager : MonoBehaviour
 
             selectedUnits[i].GetComponent<UnitMovement>().MoveTo(formationPosition);
         }
+    }
+
+    // Utility functions for drawing the selection rectangle
+    Rect GetScreenRect(Vector2 screenPosition1, Vector2 screenPosition2)
+    {
+        // Move origin from bottom left to top left
+        screenPosition1.y = Screen.height - screenPosition1.y;
+        screenPosition2.y = Screen.height - screenPosition2.y;
+        // Create rectangle
+        return new Rect(
+            Mathf.Min(screenPosition1.x, screenPosition2.x),
+            Mathf.Min(screenPosition1.y, screenPosition2.y),
+            Mathf.Abs(screenPosition1.x - screenPosition2.x),
+            Mathf.Abs(screenPosition1.y - screenPosition2.y)
+        );
+    }
+
+    void DrawScreenRect(Rect rect, Color color)
+    {
+        GUI.color = color;
+        GUI.DrawTexture(rect, Texture2D.whiteTexture);
+        GUI.color = Color.white;
+    }
+
+    void DrawScreenRectBorder(Rect rect, float thickness, Color color)
+    {
+        // Top
+        DrawScreenRect(new Rect(rect.xMin, rect.yMin, rect.width, thickness), color);
+        // Left
+        DrawScreenRect(new Rect(rect.xMin, rect.yMin, thickness, rect.height), color);
+        // Right
+        DrawScreenRect(new Rect(rect.xMax - thickness, rect.yMin, thickness, rect.height), color);
+        // Bottom
+        DrawScreenRect(new Rect(rect.xMin, rect.yMax - thickness, rect.width, thickness), color);
     }
 }

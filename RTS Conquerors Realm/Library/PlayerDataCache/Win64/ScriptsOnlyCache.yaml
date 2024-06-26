@@ -1,10 +1,16 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Barracks
+    - BarracksUI
+    - Bullet
     - CameraMovement
     - GameManager
     - SelectionManager
+    - UnitCombat
+    - UnitMovement
     Unity.AI.Navigation.Editor.dll:
+    - Unity.AI.Navigation.Editor.NavMeshAssetManager
     - Unity.AI.Navigation.Editor.NavigationWindow
     Unity.AI.Navigation.dll:
     - Unity.AI.Navigation.NavMeshSurface
@@ -77,6 +83,12 @@ ScriptsOnlyBuild:
     fullTypeName: GameManager
     methodName: Quit
   - assembly: Assembly-CSharp
+    fullTypeName: BarracksUI
+    methodName: BuildUnit2
+  - assembly: Assembly-CSharp
+    fullTypeName: BarracksUI
+    methodName: BuildUnit1
+  - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: OpenOptions
   - assembly: Assembly-CSharp
@@ -104,6 +116,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
@@ -117,42 +131,56 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1600}
+      Script: {instanceID: 16712}
     - Class: 114
-      Script: {instanceID: 2192}
+      Script: {instanceID: 17308}
     - Class: 114
-      Script: {instanceID: 2612}
+      Script: {instanceID: 17728}
     - Class: 114
-      Script: {instanceID: 2816}
+      Script: {instanceID: 17932}
     - Class: 114
-      Script: {instanceID: 3106}
+      Script: {instanceID: 17936}
     - Class: 114
-      Script: {instanceID: 4096}
+      Script: {instanceID: 18226}
     - Class: 114
-      Script: {instanceID: 4348}
+      Script: {instanceID: 18418}
     - Class: 114
-      Script: {instanceID: 4974}
+      Script: {instanceID: 19074}
     - Class: 114
-      Script: {instanceID: 5044}
+      Script: {instanceID: 19222}
     - Class: 114
-      Script: {instanceID: 5224}
+      Script: {instanceID: 19474}
     - Class: 114
-      Script: {instanceID: 5612}
+      Script: {instanceID: 19564}
     - Class: 114
-      Script: {instanceID: 5762}
+      Script: {instanceID: 19746}
     - Class: 114
-      Script: {instanceID: 6082}
+      Script: {instanceID: 20104}
     - Class: 114
-      Script: {instanceID: 8076}
+      Script: {instanceID: 20174}
     - Class: 114
-      Script: {instanceID: 8092}
+      Script: {instanceID: 20354}
     - Class: 114
-      Script: {instanceID: 8096}
+      Script: {instanceID: 20594}
+    - Class: 114
+      Script: {instanceID: 20744}
+    - Class: 114
+      Script: {instanceID: 20816}
+    - Class: 114
+      Script: {instanceID: 20896}
+    - Class: 114
+      Script: {instanceID: 21216}
+    - Class: 114
+      Script: {instanceID: 22948}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
@@ -217,6 +245,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d0a7d4dfef13dffc544abbad2d4a6db2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BarracksSelection
   - hash:
       serializedVersion: 2
       Hash: f854af586011dd194574f89546642e29
@@ -309,6 +343,12 @@ ScriptsOnlyBuild:
     className: UnityMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 2855aa65ce93bbf44bbde2ce7e8165b5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerMovement
+  - hash:
+      serializedVersion: 2
       Hash: fce9b835d1e8b08e7ecea8da19f21986
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -319,6 +359,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestRunner.Utils
     className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4339be19ae428750c5f821ae3af4d31a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UnitMovement
   - hash:
       serializedVersion: 2
       Hash: 5a4aa2850fe11587f47e34c270c7fd22
@@ -423,6 +469,12 @@ ScriptsOnlyBuild:
     className: VariablesAsset
   - hash:
       serializedVersion: 2
+      Hash: cf0a671517c96f278c3544c52cf9a60e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BarracksUI
+  - hash:
+      serializedVersion: 2
       Hash: 7bdff9e91edfd9600f92a185def7e34a
     assemblyName: Unity.VisualScripting.Flow
     namespaceName: Unity.VisualScripting
@@ -445,6 +497,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 45f12b35726df1473af61f1482325f41
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityTemplateProjects
+    className: SimpleCameraController
   - hash:
       serializedVersion: 2
       Hash: e6f8333cc8a800e2866870a5ef7efc35
@@ -493,6 +551,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 0ec3ab025abf6bf6beb75156c1e35972
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
   - hash:
       serializedVersion: 2
       Hash: 4718916586b3818eb69bf65df61f0f3a
@@ -573,10 +637,22 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 2ca57fc056d6c6bb6b30fccadf70dfa9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Bullet
+  - hash:
+      serializedVersion: 2
       Hash: 7e9cad7f71f9cc52f699bbd2d2a75734
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 17000a69f3ac81e0e8c1b13709b68766
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SelectionManager
   - hash:
       serializedVersion: 2
       Hash: 0b63f6d3335e11939ce8790b904c8691
@@ -735,10 +811,22 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
+      Hash: 3f961e0fb61172a2011cd110067e1beb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Barracks
+  - hash:
+      serializedVersion: 2
       Hash: 540882762544409cc4530e60db00e951
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: e771841c4377b0dadf6b3cbc85815f6a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UnitCombat
   - hash:
       serializedVersion: 2
       Hash: ef38c1407dba8c1f5d69f5db61a694fe
@@ -805,6 +893,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 284186e3629a100e17555a8ee286897b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LookWithMouse
   - hash:
       serializedVersion: 2
       Hash: 8bbce9932f67ad8e7f4eefec87800f94
@@ -921,6 +1015,12 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
+      Hash: 8501ad9c487f4c5a895011f642e6bd40
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: QueueImage
+  - hash:
+      serializedVersion: 2
       Hash: 4728e3d21cc2a12e391e71ec9b7eed0b
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1005,6 +1105,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 96ccbf389ad8337584c55d249c164dd6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CameraMovement
+  - hash:
+      serializedVersion: 2
       Hash: 00eef92bf387da2c9009267123d9d674
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1015,62 +1121,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 0ec3ab025abf6bf6beb75156c1e35972
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameManager
-  - hash:
-      serializedVersion: 2
-      Hash: 45f12b35726df1473af61f1482325f41
-    assemblyName: Assembly-CSharp
-    namespaceName: UnityTemplateProjects
-    className: SimpleCameraController
-  - hash:
-      serializedVersion: 2
-      Hash: 2855aa65ce93bbf44bbde2ce7e8165b5
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerMovement
-  - hash:
-      serializedVersion: 2
-      Hash: e771841c4377b0dadf6b3cbc85815f6a
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: UnitCombat
-  - hash:
-      serializedVersion: 2
-      Hash: 96ccbf389ad8337584c55d249c164dd6
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CameraMovement
-  - hash:
-      serializedVersion: 2
-      Hash: 17000a69f3ac81e0e8c1b13709b68766
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SelectionManager
-  - hash:
-      serializedVersion: 2
-      Hash: 2ca57fc056d6c6bb6b30fccadf70dfa9
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Bullet
-  - hash:
-      serializedVersion: 2
-      Hash: 284186e3629a100e17555a8ee286897b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: LookWithMouse
-  - hash:
-      serializedVersion: 2
-      Hash: 4339be19ae428750c5f821ae3af4d31a
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: UnitMovement
   platform: 19
   scenePathNames:
   - Assets/Scenes/TestScene.unity
-  playerPath: C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Build/Unity
-    game scripting.exe
+  playerPath: E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Build/Unity game
+    scripting.exe

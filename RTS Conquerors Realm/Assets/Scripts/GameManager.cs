@@ -5,28 +5,25 @@ public class GameManager : MonoBehaviour
 {
     public GameObject pauseMenu;
     public GameObject optionsMenu;
-    public CameraMovement cameraMovement;
+    public GodViewCamera cameraMovement;
 
-    public Slider moveSpeedSlider;
+    public Slider panSpeedSlider;
     public Slider rotationSpeedSlider;
-    public Slider verticalSpeedSlider;
-    public Slider mouseSensitivitySlider;
+    public Slider scrollSpeedSlider;
 
     private bool isPaused = false;
 
     void Start()
     {
         // Initialize sliders with current camera values
-        moveSpeedSlider.value = cameraMovement.moveSpeed;
+        panSpeedSlider.value = cameraMovement.panSpeed;
         rotationSpeedSlider.value = cameraMovement.rotationSpeed;
-        verticalSpeedSlider.value = cameraMovement.verticalSpeed;
-        mouseSensitivitySlider.value = cameraMovement.mouseSensitivity;
+        scrollSpeedSlider.value = cameraMovement.scrollSpeed;
 
         // Add listeners to update camera values
-        moveSpeedSlider.onValueChanged.AddListener(delegate { UpdateMoveSpeed(); });
+        panSpeedSlider.onValueChanged.AddListener(delegate { UpdatePanSpeed(); });
         rotationSpeedSlider.onValueChanged.AddListener(delegate { UpdateRotationSpeed(); });
-        verticalSpeedSlider.onValueChanged.AddListener(delegate { UpdateVerticalSpeed(); });
-        mouseSensitivitySlider.onValueChanged.AddListener(delegate { UpdateMouseSensitivity(); });
+        scrollSpeedSlider.onValueChanged.AddListener(delegate { UpdateScrollSpeed(); });
 
         // Hide menus initially
         pauseMenu.SetActive(false);
@@ -84,9 +81,9 @@ public class GameManager : MonoBehaviour
 #endif
     }
 
-    void UpdateMoveSpeed()
+    void UpdatePanSpeed()
     {
-        cameraMovement.moveSpeed = moveSpeedSlider.value;
+        cameraMovement.panSpeed = panSpeedSlider.value;
     }
 
     void UpdateRotationSpeed()
@@ -94,13 +91,8 @@ public class GameManager : MonoBehaviour
         cameraMovement.rotationSpeed = rotationSpeedSlider.value;
     }
 
-    void UpdateVerticalSpeed()
+    void UpdateScrollSpeed()
     {
-        cameraMovement.verticalSpeed = verticalSpeedSlider.value;
-    }
-
-    void UpdateMouseSensitivity()
-    {
-        cameraMovement.mouseSensitivity = mouseSensitivitySlider.value;
+        cameraMovement.scrollSpeed = scrollSpeedSlider.value;
     }
 }

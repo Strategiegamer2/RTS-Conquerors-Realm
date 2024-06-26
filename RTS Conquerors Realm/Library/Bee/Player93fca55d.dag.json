@@ -299,7 +299,7 @@
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 15833,
+      "PayloadLength": 14048,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
@@ -310,7 +310,7 @@
     {
       "Annotation": "AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config",
       "DisplayName": "AddBootConfigGUID boot",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\WinPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\boot.config_tyr4.info\"",
+      "Action": "\"D:\\Unity games\\2022.3.29f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:\\Unity games\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\WinPlayerBuildProgram.exe\" \"D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Bee;D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\boot.config_tyr4.info\"",
       "Inputs": [
         "Library/PlayerDataCache/Win64/Data/boot.config",
         "Library/PlayerDataCache/Win64/Data/boot.config",
@@ -326,140 +326,140 @@
         "Library/PlayerDataCache/Win64/Data/ScriptingAssemblies.json",
         "Library/PlayerDataCache/Win64/Data/sharedassets0.assets",
         "Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.NVIDIAModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PropertiesModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreFontEngineModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreTextEngineModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.dll",
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Configuration.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Core.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.DataSetExtensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Drawing.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.EnterpriseServices.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.FileSystem.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Numerics.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Runtime.Serialization.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Security.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Internals.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Transactions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.Linq.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/mscorlib.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.NVIDIAModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PropertiesModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.dll",
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Configuration.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Core.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.DataSetExtensions.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Drawing.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.EnterpriseServices.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.FileSystem.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Numerics.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Runtime.Serialization.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Security.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Internals.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Transactions.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.Linq.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/mscorlib.dll",
         "Library/Bee/Player93fca55d-inputdata.json",
         "Library/Bee/artifacts/csharpactions/boot.config_tyr4.info",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll",
+        "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
       ],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/boot.config"
@@ -492,7 +492,7 @@
       "DisplayName": "Copying UnityEngine.AIModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.AIModule.dll"
@@ -504,7 +504,7 @@
       "DisplayName": "Copying UnityEngine.ARModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.ARModule.dll"
@@ -516,7 +516,7 @@
       "DisplayName": "Copying UnityEngine.AccessibilityModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.AccessibilityModule.dll"
@@ -528,7 +528,7 @@
       "DisplayName": "Copying UnityEngine.AndroidJNIModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.AndroidJNIModule.dll"
@@ -540,7 +540,7 @@
       "DisplayName": "Copying UnityEngine.AnimationModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.AnimationModule.dll"
@@ -552,7 +552,7 @@
       "DisplayName": "Copying UnityEngine.AssetBundleModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.AssetBundleModule.dll"
@@ -564,7 +564,7 @@
       "DisplayName": "Copying UnityEngine.AudioModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.AudioModule.dll"
@@ -576,7 +576,7 @@
       "DisplayName": "Copying UnityEngine.ClothModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.ClothModule.dll"
@@ -588,7 +588,7 @@
       "DisplayName": "Copying UnityEngine.ClusterInputModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.ClusterInputModule.dll"
@@ -600,7 +600,7 @@
       "DisplayName": "Copying UnityEngine.ClusterRendererModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.ClusterRendererModule.dll"
@@ -612,7 +612,7 @@
       "DisplayName": "Copying UnityEngine.ContentLoadModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.ContentLoadModule.dll"
@@ -624,7 +624,7 @@
       "DisplayName": "Copying UnityEngine.CoreModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.CoreModule.dll"
@@ -636,7 +636,7 @@
       "DisplayName": "Copying UnityEngine.CrashReportingModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.CrashReportingModule.dll"
@@ -648,7 +648,7 @@
       "DisplayName": "Copying UnityEngine.DSPGraphModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.DSPGraphModule.dll"
@@ -660,7 +660,7 @@
       "DisplayName": "Copying UnityEngine.DirectorModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.DirectorModule.dll"
@@ -672,7 +672,7 @@
       "DisplayName": "Copying UnityEngine.GIModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.GIModule.dll"
@@ -684,7 +684,7 @@
       "DisplayName": "Copying UnityEngine.GameCenterModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.GameCenterModule.dll"
@@ -696,7 +696,7 @@
       "DisplayName": "Copying UnityEngine.GridModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.GridModule.dll"
@@ -708,7 +708,7 @@
       "DisplayName": "Copying UnityEngine.HotReloadModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.HotReloadModule.dll"
@@ -720,7 +720,7 @@
       "DisplayName": "Copying UnityEngine.IMGUIModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.IMGUIModule.dll"
@@ -732,7 +732,7 @@
       "DisplayName": "Copying UnityEngine.ImageConversionModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.ImageConversionModule.dll"
@@ -744,7 +744,7 @@
       "DisplayName": "Copying UnityEngine.InputLegacyModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.InputLegacyModule.dll"
@@ -756,7 +756,7 @@
       "DisplayName": "Copying UnityEngine.InputModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.InputModule.dll"
@@ -768,7 +768,7 @@
       "DisplayName": "Copying UnityEngine.JSONSerializeModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.JSONSerializeModule.dll"
@@ -780,7 +780,7 @@
       "DisplayName": "Copying UnityEngine.LocalizationModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.LocalizationModule.dll"
@@ -792,7 +792,7 @@
       "DisplayName": "Copying UnityEngine.NVIDIAModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.NVIDIAModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.NVIDIAModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.NVIDIAModule.dll"
@@ -804,7 +804,7 @@
       "DisplayName": "Copying UnityEngine.ParticleSystemModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.ParticleSystemModule.dll"
@@ -816,7 +816,7 @@
       "DisplayName": "Copying UnityEngine.PerformanceReportingModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
@@ -828,7 +828,7 @@
       "DisplayName": "Copying UnityEngine.Physics2DModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.Physics2DModule.dll"
@@ -840,7 +840,7 @@
       "DisplayName": "Copying UnityEngine.PhysicsModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.PhysicsModule.dll"
@@ -852,7 +852,7 @@
       "DisplayName": "Copying UnityEngine.ProfilerModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.ProfilerModule.dll"
@@ -864,7 +864,7 @@
       "DisplayName": "Copying UnityEngine.PropertiesModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PropertiesModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PropertiesModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.PropertiesModule.dll"
@@ -876,7 +876,7 @@
       "DisplayName": "Copying UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
@@ -888,7 +888,7 @@
       "DisplayName": "Copying UnityEngine.ScreenCaptureModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
@@ -900,7 +900,7 @@
       "DisplayName": "Copying UnityEngine.SharedInternalsModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.SharedInternalsModule.dll"
@@ -912,7 +912,7 @@
       "DisplayName": "Copying UnityEngine.SpriteMaskModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.SpriteMaskModule.dll"
@@ -924,7 +924,7 @@
       "DisplayName": "Copying UnityEngine.SpriteShapeModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.SpriteShapeModule.dll"
@@ -936,7 +936,7 @@
       "DisplayName": "Copying UnityEngine.StreamingModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.StreamingModule.dll"
@@ -948,7 +948,7 @@
       "DisplayName": "Copying UnityEngine.SubstanceModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.SubstanceModule.dll"
@@ -960,7 +960,7 @@
       "DisplayName": "Copying UnityEngine.SubsystemsModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.SubsystemsModule.dll"
@@ -972,7 +972,7 @@
       "DisplayName": "Copying UnityEngine.TLSModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.TLSModule.dll"
@@ -984,7 +984,7 @@
       "DisplayName": "Copying UnityEngine.TerrainModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.TerrainModule.dll"
@@ -996,7 +996,7 @@
       "DisplayName": "Copying UnityEngine.TerrainPhysicsModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
@@ -1008,7 +1008,7 @@
       "DisplayName": "Copying UnityEngine.TextCoreFontEngineModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreFontEngineModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
@@ -1020,7 +1020,7 @@
       "DisplayName": "Copying UnityEngine.TextCoreTextEngineModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreTextEngineModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
@@ -1032,7 +1032,7 @@
       "DisplayName": "Copying UnityEngine.TextRenderingModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.TextRenderingModule.dll"
@@ -1044,7 +1044,7 @@
       "DisplayName": "Copying UnityEngine.TilemapModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.TilemapModule.dll"
@@ -1056,7 +1056,7 @@
       "DisplayName": "Copying UnityEngine.UIElementsModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.UIElementsModule.dll"
@@ -1068,7 +1068,7 @@
       "DisplayName": "Copying UnityEngine.UIModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.UIModule.dll"
@@ -1080,7 +1080,7 @@
       "DisplayName": "Copying UnityEngine.UmbraModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.UmbraModule.dll"
@@ -1092,7 +1092,7 @@
       "DisplayName": "Copying UnityEngine.UnityAnalyticsCommonModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
@@ -1104,7 +1104,7 @@
       "DisplayName": "Copying UnityEngine.UnityAnalyticsModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
@@ -1116,7 +1116,7 @@
       "DisplayName": "Copying UnityEngine.UnityConnectModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.UnityConnectModule.dll"
@@ -1128,7 +1128,7 @@
       "DisplayName": "Copying UnityEngine.UnityCurlModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.UnityCurlModule.dll"
@@ -1140,7 +1140,7 @@
       "DisplayName": "Copying UnityEngine.UnityTestProtocolModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
@@ -1152,7 +1152,7 @@
       "DisplayName": "Copying UnityEngine.UnityWebRequestAssetBundleModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
@@ -1164,7 +1164,7 @@
       "DisplayName": "Copying UnityEngine.UnityWebRequestAudioModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
@@ -1176,7 +1176,7 @@
       "DisplayName": "Copying UnityEngine.UnityWebRequestModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
@@ -1188,7 +1188,7 @@
       "DisplayName": "Copying UnityEngine.UnityWebRequestTextureModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
@@ -1200,7 +1200,7 @@
       "DisplayName": "Copying UnityEngine.UnityWebRequestWWWModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
@@ -1212,7 +1212,7 @@
       "DisplayName": "Copying UnityEngine.VFXModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.VFXModule.dll"
@@ -1224,7 +1224,7 @@
       "DisplayName": "Copying UnityEngine.VRModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.VRModule.dll"
@@ -1236,7 +1236,7 @@
       "DisplayName": "Copying UnityEngine.VehiclesModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.VehiclesModule.dll"
@@ -1248,7 +1248,7 @@
       "DisplayName": "Copying UnityEngine.VideoModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.VideoModule.dll"
@@ -1260,7 +1260,7 @@
       "DisplayName": "Copying UnityEngine.VirtualTexturingModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
@@ -1272,7 +1272,7 @@
       "DisplayName": "Copying UnityEngine.WindModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.WindModule.dll"
@@ -1284,7 +1284,7 @@
       "DisplayName": "Copying UnityEngine.XRModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.XRModule.dll"
@@ -1296,7 +1296,7 @@
       "DisplayName": "Copying UnityEngine.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.dll"
@@ -1308,7 +1308,7 @@
       "DisplayName": "Copying Assembly-CSharp.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll"
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/Assembly-CSharp.dll"
@@ -1320,7 +1320,7 @@
       "DisplayName": "Copying Unity.Timeline.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/Unity.Timeline.dll"
@@ -1332,7 +1332,7 @@
       "DisplayName": "Copying UnityEngine.UI.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/UnityEngine.UI.dll"
@@ -1344,7 +1344,7 @@
       "DisplayName": "Copying Unity.AI.Navigation.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.dll"
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/Unity.AI.Navigation.dll"
@@ -1356,7 +1356,7 @@
       "DisplayName": "Copying Unity.TextMeshPro.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/Unity.TextMeshPro.dll"
@@ -1368,7 +1368,7 @@
       "DisplayName": "Copying Unity.VisualScripting.Core.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/Unity.VisualScripting.Core.dll"
@@ -1380,7 +1380,7 @@
       "DisplayName": "Copying Unity.VisualScripting.State.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/Unity.VisualScripting.State.dll"
@@ -1392,7 +1392,7 @@
       "DisplayName": "Copying Unity.VisualScripting.Flow.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll"
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/Unity.VisualScripting.Flow.dll"
@@ -1404,7 +1404,7 @@
       "DisplayName": "Copying Unity.VisualScripting.Antlr3.Runtime.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+        "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
@@ -1416,7 +1416,7 @@
       "DisplayName": "Copying netstandard.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/netstandard.dll"
@@ -1428,7 +1428,7 @@
       "DisplayName": "Copying Mono.Security.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/Mono.Security.dll"
@@ -1440,7 +1440,7 @@
       "DisplayName": "Copying System.ComponentModel.Composition.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.ComponentModel.Composition.dll"
@@ -1452,7 +1452,7 @@
       "DisplayName": "Copying System.Configuration.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Configuration.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Configuration.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.Configuration.dll"
@@ -1464,7 +1464,7 @@
       "DisplayName": "Copying System.Core.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Core.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Core.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.Core.dll"
@@ -1476,7 +1476,7 @@
       "DisplayName": "Copying System.Data.DataSetExtensions.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.DataSetExtensions.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.DataSetExtensions.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.Data.DataSetExtensions.dll"
@@ -1488,7 +1488,7 @@
       "DisplayName": "Copying System.Data.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.Data.dll"
@@ -1500,7 +1500,7 @@
       "DisplayName": "Copying System.Drawing.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Drawing.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Drawing.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.Drawing.dll"
@@ -1512,7 +1512,7 @@
       "DisplayName": "Copying System.EnterpriseServices.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.EnterpriseServices.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.EnterpriseServices.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.EnterpriseServices.dll"
@@ -1524,7 +1524,7 @@
       "DisplayName": "Copying System.IO.Compression.FileSystem.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.FileSystem.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.FileSystem.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.IO.Compression.FileSystem.dll"
@@ -1536,7 +1536,7 @@
       "DisplayName": "Copying System.IO.Compression.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.IO.Compression.dll"
@@ -1548,7 +1548,7 @@
       "DisplayName": "Copying System.Net.Http.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.Net.Http.dll"
@@ -1560,7 +1560,7 @@
       "DisplayName": "Copying System.Numerics.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Numerics.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Numerics.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.Numerics.dll"
@@ -1572,7 +1572,7 @@
       "DisplayName": "Copying System.Runtime.Serialization.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Runtime.Serialization.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Runtime.Serialization.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.Runtime.Serialization.dll"
@@ -1584,7 +1584,7 @@
       "DisplayName": "Copying System.Security.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Security.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Security.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.Security.dll"
@@ -1596,7 +1596,7 @@
       "DisplayName": "Copying System.ServiceModel.Internals.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Internals.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Internals.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.ServiceModel.Internals.dll"
@@ -1608,7 +1608,7 @@
       "DisplayName": "Copying System.Transactions.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Transactions.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Transactions.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.Transactions.dll"
@@ -1620,7 +1620,7 @@
       "DisplayName": "Copying System.Xml.Linq.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.Linq.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.Linq.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.Xml.Linq.dll"
@@ -1632,7 +1632,7 @@
       "DisplayName": "Copying System.Xml.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.Xml.dll"
@@ -1644,7 +1644,7 @@
       "DisplayName": "Copying System.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/System.dll"
@@ -1656,7 +1656,7 @@
       "DisplayName": "Copying mscorlib.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/mscorlib.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/mscorlib.dll"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Managed/mscorlib.dll"
@@ -1667,7 +1667,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 16005,
+      "PayloadOffset": 14220,
       "PayloadLength": 35,
       "PayloadDebugContentSnippet": "DefaultCompany\nUnity game scri",
       "Inputs": [],
@@ -1696,7 +1696,7 @@
       "DisplayName": "Copying unity default resources",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources/unity default resources"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources/unity default resources"
       ],
       "Outputs": [
         "Build/Unity game scripting_Data/Resources/unity default resources"
@@ -1720,7 +1720,7 @@
       "DisplayName": "Copying mono-2.0-bdwgc.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
@@ -1732,7 +1732,7 @@
       "DisplayName": "Copying MonoPosixHelper.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
@@ -1744,7 +1744,7 @@
       "DisplayName": "Copying Compat.browser",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
@@ -1756,7 +1756,7 @@
       "DisplayName": "Copying DefaultWsdlHelpGenerator.aspx",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
@@ -1768,7 +1768,7 @@
       "DisplayName": "Copying machine.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/machine.config"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/machine.config"
@@ -1780,7 +1780,7 @@
       "DisplayName": "Copying settings.map",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/settings.map"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/settings.map"
@@ -1792,7 +1792,7 @@
       "DisplayName": "Copying web.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/web.config"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/web.config"
@@ -1804,7 +1804,7 @@
       "DisplayName": "Copying Compat.browser",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
@@ -1816,7 +1816,7 @@
       "DisplayName": "Copying DefaultWsdlHelpGenerator.aspx",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
@@ -1828,7 +1828,7 @@
       "DisplayName": "Copying machine.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/machine.config"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/machine.config"
@@ -1840,7 +1840,7 @@
       "DisplayName": "Copying settings.map",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/settings.map"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/settings.map"
@@ -1852,7 +1852,7 @@
       "DisplayName": "Copying web.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/web.config"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/web.config"
@@ -1864,7 +1864,7 @@
       "DisplayName": "Copying Compat.browser",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
@@ -1876,7 +1876,7 @@
       "DisplayName": "Copying DefaultWsdlHelpGenerator.aspx",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
@@ -1888,7 +1888,7 @@
       "DisplayName": "Copying machine.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/machine.config"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/machine.config"
@@ -1900,7 +1900,7 @@
       "DisplayName": "Copying settings.map",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/settings.map"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/settings.map"
@@ -1912,7 +1912,7 @@
       "DisplayName": "Copying web.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/web.config"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/web.config"
@@ -1924,7 +1924,7 @@
       "DisplayName": "Copying browscap.ini",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/browscap.ini"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/browscap.ini"
@@ -1936,7 +1936,7 @@
       "DisplayName": "Copying config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/config"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/config"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/config"
@@ -1948,7 +1948,7 @@
       "DisplayName": "Copying config.xml",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/mconfig/config.xml"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/mconfig/config.xml"
@@ -1960,7 +1960,7 @@
       "DisplayName": "Copying UnityCrashHandler64.exe",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityCrashHandler64.exe"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityCrashHandler64.exe"
       ],
       "Outputs": [
         "Build/UnityCrashHandler64.exe"
@@ -1972,7 +1972,7 @@
       "DisplayName": "Copying UnityPlayer.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityPlayer.dll"
+        "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityPlayer.dll"
       ],
       "Outputs": [
         "Build/UnityPlayer.dll"
@@ -2128,115 +2128,115 @@
   ],
   "FileSignatures": [
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.Data.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.exe"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.exe"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
     },
     {
       "File": "Library/Bee/Player93fca55d-inputdata.json"
@@ -2253,13 +2253,13 @@
       "File": "Build/UnityCommon.props"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources"
+      "File": "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources"
     },
     {
       "File": "Library/Bee/Player93fca55d-inputdata.json"
@@ -2271,18 +2271,18 @@
       "Recurse": 1
     },
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
+      "Path": "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
     },
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono",
+      "Path": "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono",
       "Recurse": 1
     },
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources",
+      "Path": "D:/Unity games/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources",
       "Recurse": 1
     },
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPipeline"
+      "Path": "D:/Unity games/2022.3.29f1/Editor/Data/Tools/BuildPipeline"
     },
     {
       "Path": "Library/PlayerDataCache/Win64/Data",
@@ -2332,6 +2332,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/Player93fca55d.dag.json",
-  "PayloadsFile": "C:/Games/Website/RTS-Conquerors-Realm/RTS Conquerors Realm/Library/Bee/Player93fca55d.dag.payloads",
+  "PayloadsFile": "E:/Unity/RTS Conquerors Realm/RTS Conquerors Realm/Library/Bee/Player93fca55d.dag.payloads",
   "RelativePathToRoot": "../.."
 }

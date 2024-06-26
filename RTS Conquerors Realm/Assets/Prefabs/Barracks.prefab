@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 7797082223629755617}
   - component: {fileID: 2308829474416131767}
   - component: {fileID: 6313821225601078541}
-  - component: {fileID: 2337099505512793086}
+  - component: {fileID: 8397644542063277549}
+  - component: {fileID: 5029136567541222165}
   m_Layer: 0
   m_Name: Barracks
   m_TagString: Untagged
@@ -118,7 +119,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8399665279690475036, guid: 8c11f42e3fbf0ce408bf9b38f7432508, type: 3}
---- !u!114 &2337099505512793086
+--- !u!114 &8397644542063277549
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,13 +131,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d910b8fec346af4db08cb70565b8385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unit1Cooldown: 5
+  unit2Cooldown: 7
   unitType1Prefab: {fileID: 1322152659877060707, guid: dba1cf77738696240a581a22873749f6, type: 3}
   unitType2Prefab: {fileID: 1511995566861868312, guid: 290064d92c295a742858a86a78966b63, type: 3}
   spawnPoint: {fileID: 5961201476808444051}
-  buildTimeType1: 5
-  buildTimeType2: 7
-  queueImagePrefab: {fileID: 3671516704084200591, guid: 6f2818a35bf5bf34d85537d98fd69c84, type: 3}
-  queuePanel: {fileID: 0}
+  queueItemPrefab1: {fileID: 6118298010439814143, guid: 938318aa44749cd4987ff3fbdbea9644, type: 3}
+  queueItemPrefab2: {fileID: 5867388868350242700, guid: 041cbdbff18657340b9907c5135f901a, type: 3}
+--- !u!208 &5029136567541222165
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564785369729236027}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.35, y: 2.58, z: 2.99}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.20500001, y: 1.5870001, z: -0.21000001}
+  m_TimeToStationary: 0.5
 --- !u!1 &6185371788642649709
 GameObject:
   m_ObjectHideFlags: 0
