@@ -16,7 +16,8 @@ GameObject:
   - component: {fileID: 8081623025192054363}
   - component: {fileID: 3603521362565236412}
   - component: {fileID: 670929280289846959}
-  m_Layer: 0
+  - component: {fileID: 2973786470048396381}
+  m_Layer: 3
   m_Name: Worker
   m_TagString: Unit
   m_Icon: {fileID: 0}
@@ -155,6 +156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54ade375bac8fe647aca108a413146d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  miningTime: 5
+  resourceAmount: 100
 --- !u!195 &670929280289846959
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -177,3 +180,30 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!54 &2973786470048396381
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322152659877060707}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

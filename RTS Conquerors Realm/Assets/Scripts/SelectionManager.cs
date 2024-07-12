@@ -8,7 +8,8 @@ public class SelectionManager : MonoBehaviour
     private Vector2 startPos; // Start position of the selection box
     private List<GameObject> selectedUnits = new List<GameObject>(); // List of currently selected units
     private Camera mainCamera; // Reference to the main camera
-
+    public Texture2D normalCursor;
+    public Texture2D resourceCursor;
     private bool isSelecting = false; // Flag to check if selection is ongoing
     private float minBoxSize = 10f; // Minimum size of the selection box to be shown
 
@@ -23,6 +24,7 @@ public class SelectionManager : MonoBehaviour
     {
         HandleInput(); // Handle mouse input each frame
         HandleGroupSelection(); // Handle group selection input each frame
+        HandleCursorChange(); // Handle cursor change
     }
 
     void OnGUI()
@@ -75,6 +77,23 @@ public class SelectionManager : MonoBehaviour
         }
     }
 
+    void HandleCursorChange()
+    {
+        Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit))
+        {
+            if (hit.collider.CompareTag("Wood") || hit.collider.CompareTag("Stone") || hit.collider.CompareTag("Niter"))
+            {
+                Cursor.SetCursor(resourceCursor, Vector2.zero, CursorMode.Auto);
+            }
+            else
+            {
+                Cursor.SetCursor(normalCursor, Vector2.zero, CursorMode.Auto);
+            }
+        }
+    }
+
     void HandleRightClick()
     {
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
@@ -82,11 +101,15 @@ public class SelectionManager : MonoBehaviour
         if (Physics.Raycast(ray, out hit))
         {
             GameObject target = hit.collider.gameObject;
-            if (target.CompareTag("Wood") || target.CompareTag("Crystal"))
+            if (target.CompareTag("Ground"))
+            {
+                MoveSelectedUnits(hit.point);
+            }
+            else if (target.CompareTag("Wood") || target.CompareTag("Stone") || target.CompareTag("Niter"))
             {
                 foreach (GameObject unit in selectedUnits)
                 {
-                    if (unit.GetComponent<Worker>() != null)
+                    if (unit.layer == LayerMask.NameToLayer("Worker"))
                     {
                         unit.GetComponent<Worker>().AssignResource(target);
                     }
@@ -96,12 +119,20 @@ public class SelectionManager : MonoBehaviour
             {
                 foreach (GameObject unit in selectedUnits)
                 {
-                    if (unit.GetComponent<Worker>() != null)
+                    if (unit.layer == LayerMask.NameToLayer("Worker"))
                     {
                         unit.GetComponent<Worker>().DropOffEarly();
                     }
                 }
             }
+        }
+    }
+
+    void MoveSelectedUnits(Vector3 targetPosition)
+    {
+        foreach (GameObject unit in selectedUnits)
+        {
+            unit.GetComponent<UnitMovement>().MoveTo(targetPosition);
         }
     }
 
@@ -205,38 +236,6 @@ public class SelectionManager : MonoBehaviour
             }
         }
         selectedUnits.Clear();
-    }
-
-    void MoveSelectedUnits()
-    {
-        Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
-        if (Physics.Raycast(ray, out hit) && hit.collider.CompareTag("Ground"))
-        {
-            Vector3 targetPosition = hit.point;
-            ArrangeUnitsInFormation(targetPosition);
-        }
-    }
-
-    void ArrangeUnitsInFormation(Vector3 targetPosition)
-    {
-        int unitCount = selectedUnits.Count;
-        if (unitCount == 0) return;
-
-        int rows = Mathf.CeilToInt(Mathf.Sqrt(unitCount));
-        float spacing = 2f; // Adjust spacing as needed
-
-        for (int i = 0; i < unitCount; i++)
-        {
-            if (selectedUnits[i] == null) continue; // Add null check
-
-            int row = i / rows;
-            int column = i % rows;
-            Vector3 offset = new Vector3(column * spacing, 0, row * spacing);
-            Vector3 formationPosition = targetPosition + offset;
-
-            selectedUnits[i].GetComponent<UnitMovement>().MoveTo(formationPosition);
-        }
     }
 
     // Utility functions for drawing the selection rectangle

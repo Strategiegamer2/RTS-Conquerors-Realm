@@ -362,16 +362,22 @@
 "Assets/EldamarStudio/Fantasy Low Poly Pack/SampleSceneAssets/Scripts/LookWithMouse.cs"
 "Assets/EldamarStudio/Fantasy Low Poly Pack/SampleSceneAssets/Scripts/PlayerMovement.cs"
 "Assets/EldamarStudio/Fantasy Low Poly Pack/SampleSceneAssets/Scripts/SimpleCameraController.cs"
+"Assets/Scripts/AudioManager.cs"
 "Assets/Scripts/Barracks/Barracks.cs"
 "Assets/Scripts/Barracks/BarracksUI.cs"
 "Assets/Scripts/Base.cs"
+"Assets/Scripts/BuildingPlacer.cs"
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GodViewCamera.cs"
+"Assets/Scripts/House.cs"
+"Assets/Scripts/MainMenuManager.cs"
+"Assets/Scripts/MinimapCamera.cs"
 "Assets/Scripts/SelectionManager.cs"
 "Assets/Scripts/UnitCombat.cs"
 "Assets/Scripts/UnitMovement.cs"
 "Assets/Scripts/Worker.cs"
+"Assets/Scripts/WorkerUIManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

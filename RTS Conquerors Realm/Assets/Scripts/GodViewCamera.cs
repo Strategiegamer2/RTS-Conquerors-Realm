@@ -14,6 +14,9 @@ public class GodViewCamera : MonoBehaviour
 
     private Vector3 initialPosition;
     private Quaternion initialRotation;
+    private float currentRotationY = 0f;
+    private float maxRotationY = 90f; // Maximum Y rotation angle
+    private float minRotationY = -90f; // Minimum Y rotation angle
 
     void Start()
     {
@@ -64,18 +67,25 @@ public class GodViewCamera : MonoBehaviour
 
         // Adjust X rotation based on zoom level
         float t = (pos.y - minY) / (maxY - minY);
-        float rotationX = Mathf.Lerp(maxRotationX, minRotationX, t);
-        transform.rotation = Quaternion.Euler(rotationX, transform.rotation.eulerAngles.y, 0);
+        float rotationX = Mathf.Lerp(minRotationX, maxRotationX, t);
+        transform.rotation = Quaternion.Euler(rotationX, currentRotationY, 0);
 
         transform.position = pos;
     }
 
     private void HandleRotation()
     {
-        if (Input.GetKey(KeyCode.LeftControl) && Input.GetMouseButton(1))
+        if (Input.GetKey(KeyCode.Delete))
         {
-            float h = Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime;
-            transform.Rotate(0, h, 0, Space.World);
+            currentRotationY += rotationSpeed * Time.deltaTime;
+            currentRotationY = Mathf.Clamp(currentRotationY, minRotationY, maxRotationY);
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, currentRotationY, 0);
+        }
+        else if (Input.GetKey(KeyCode.Insert))
+        {
+            currentRotationY -= rotationSpeed * Time.deltaTime;
+            currentRotationY = Mathf.Clamp(currentRotationY, minRotationY, maxRotationY);
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, currentRotationY, 0);
         }
     }
 
@@ -83,5 +93,6 @@ public class GodViewCamera : MonoBehaviour
     {
         transform.position = initialPosition;
         transform.rotation = initialRotation;
+        currentRotationY = initialRotation.eulerAngles.y;
     }
 }

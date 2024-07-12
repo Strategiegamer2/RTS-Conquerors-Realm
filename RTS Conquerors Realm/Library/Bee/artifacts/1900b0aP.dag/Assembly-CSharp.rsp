@@ -312,16 +312,15 @@
 "Assets/EldamarStudio/Fantasy Low Poly Pack/SampleSceneAssets/Scripts/PlayerMovement.cs"
 "Assets/EldamarStudio/Fantasy Low Poly Pack/SampleSceneAssets/Scripts/SimpleCameraController.cs"
 "Assets/Scripts/Barracks/Barracks.cs"
-"Assets/Scripts/Barracks/BarracksSelection.cs"
 "Assets/Scripts/Barracks/BarracksUI.cs"
-"Assets/Scripts/Barracks/BuildQueueItem.cs"
-"Assets/Scripts/Barracks/QueueImage.cs"
+"Assets/Scripts/Base.cs"
 "Assets/Scripts/Bullet.cs"
-"Assets/Scripts/CameraMovement.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/GodViewCamera.cs"
 "Assets/Scripts/SelectionManager.cs"
 "Assets/Scripts/UnitCombat.cs"
 "Assets/Scripts/UnitMovement.cs"
+"Assets/Scripts/Worker.cs"
 -langversion:9.0
 /deterministic
 /optimize+

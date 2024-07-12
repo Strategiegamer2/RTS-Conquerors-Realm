@@ -8,16 +8,20 @@ TagManager:
   - Ground
   - Enemy
   - Wood
-  - Crystal
+  - Base
+  - ResourceNode
+  - DropOffPoint
+  - Stone
+  - Niter
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Worker
   - Water
   - UI
-  - 
-  - 
+  - Base
+  - Resources
   - 
   - 
   - 
