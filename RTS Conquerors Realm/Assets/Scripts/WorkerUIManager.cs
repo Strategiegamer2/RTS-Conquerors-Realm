@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+using UnityEngine.EventSystems;
 
 public class WorkerUIManager : MonoBehaviour
 {
@@ -11,6 +13,7 @@ public class WorkerUIManager : MonoBehaviour
 
     public Base playerBase;
     public BuildingPlacer buildingPlacer;
+    public Tooltip tooltip;
 
     private void Awake()
     {
@@ -30,6 +33,9 @@ public class WorkerUIManager : MonoBehaviour
 
         barracksButton.onClick.AddListener(() => BuildBuilding("Barracks"));
         houseButton.onClick.AddListener(() => BuildBuilding("House"));
+
+        AddTooltipListener(barracksButton, "Barracks: Costs 500 Wood, 500 Niter, and 200 Stone.");
+        AddTooltipListener(houseButton, "House: Costs 100 Wood, and 200 Stone.");
     }
 
     public void ToggleWorkerUI(bool isVisible)
@@ -63,5 +69,20 @@ public class WorkerUIManager : MonoBehaviour
                 Debug.Log("Not enough resources to build House");
             }
         }
+    }
+
+    private void AddTooltipListener(Button button, string message)
+    {
+        EventTrigger trigger = button.gameObject.AddComponent<EventTrigger>();
+
+        // OnPointerEnter
+        var pointerEnter = new EventTrigger.Entry { eventID = EventTriggerType.PointerEnter };
+        pointerEnter.callback.AddListener((e) => tooltip.ShowTooltip(message));
+        trigger.triggers.Add(pointerEnter);
+
+        // OnPointerExit
+        var pointerExit = new EventTrigger.Entry { eventID = EventTriggerType.PointerExit };
+        pointerExit.callback.AddListener((e) => tooltip.HideTooltip());
+        trigger.triggers.Add(pointerExit);
     }
 }

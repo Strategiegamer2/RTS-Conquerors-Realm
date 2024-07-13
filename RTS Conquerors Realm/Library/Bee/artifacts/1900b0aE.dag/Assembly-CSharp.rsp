@@ -374,6 +374,7 @@
 "Assets/Scripts/MainMenuManager.cs"
 "Assets/Scripts/MinimapCamera.cs"
 "Assets/Scripts/SelectionManager.cs"
+"Assets/Scripts/Tooltip.cs"
 "Assets/Scripts/UnitCombat.cs"
 "Assets/Scripts/UnitMovement.cs"
 "Assets/Scripts/Worker.cs"

@@ -31,9 +31,9 @@ public class Barracks : MonoBehaviour
         }
 
         unit1Button = barracksUI.transform.Find("Archer Unit").GetComponent<Button>();
-        unit2Button = barracksUI.transform.Find("Mutant Unit").GetComponent<Button>();
+        unit2Button = barracksUI.transform.Find("Tank Unit").GetComponent<Button>();
         unit1FillImage = unit1Button.transform.Find("Archer Image").GetComponent<Image>();
-        unit2FillImage = unit2Button.transform.Find("Mutant Image").GetComponent<Image>();
+        unit2FillImage = unit2Button.transform.Find("Tank Image").GetComponent<Image>();
 
         unit1Button.onClick.AddListener(() => EnqueueUnit(1));
         unit2Button.onClick.AddListener(() => EnqueueUnit(2));
